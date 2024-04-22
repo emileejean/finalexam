@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+body{
+    font-family:"Cutive Mono", monospace;
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 35px; /* Set the font size to 24 pixels for all headings */
+  text-align:center;
+}
+
+/*Div styles*/
+
+.common{
+    font-family:"Cutive Mono", monospace;
+    font-weight: bold;
+    position:absolute;
+}
+.top{
+    top:0px;
+    left:0px;
+    right:0px;
+    height:125px;
+    background-color:#F2F2F2;
+    padding: 10px
+    display: inline-block;
+}
+
+.topsub{
+  text-align: center;
+  font-style: italic;
+}
+
+.middle{
+    top: 200px;
+    left:0px;
+    right:0px;
+}
+
+.common.middle ol,
+.common.middle p {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.middlemore{
+    top:500px;
+    left:0px;
+    right:0px;
+}
+.bottom{
+    position:relative;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:1;
+    text-align: center;
+}
